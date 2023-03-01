@@ -8,7 +8,7 @@
 
 
 body{
-
+ width: auto;
 }
 
 h1 {
@@ -68,6 +68,7 @@ h1 {
 
 .Bibliografia-main{
     padding: 6px 6px;
+    margin-left: 40px;
     width: 190px;
     height: 388px;
     border-radius: 10px;
@@ -81,13 +82,14 @@ h1 {
     width: auto;
     margin-right: 44px;
     font-family: 'Golos Text', sans-serif;
+    margin-left: 30px;
 }
 
 .Biografia-Articulo h1{
     margin-top: 16px;
 }
 
-.Bibliografia-lista{
+.discografia-padre{
     
 }
 
@@ -100,18 +102,7 @@ h1 {
 
 }
 
-.page-main__discografia{
-    display: inline-flex;
-    flex-wrap: nowrap;
-    justify-content: flex-start;
-    margin: 20px 8px;
-    padding: 6px 6px;
-    width: 784px;
-    height: 408px;
-    border-radius: 10px;
-    box-shadow: 6px 5px 14px #33027473;
-    background-color: rgb(0 0 0 / 18%);
-}
+
 
 .discografia-padre h2{
     margin-bottom: 18px;
@@ -128,7 +119,6 @@ h1 {
     margin-right: 33px;
     padding-right: 13px;
     border-right: groove 3px ghostwhite;
-    
     padding-left: 32px;
 }
 
