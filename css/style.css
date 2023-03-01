@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&family=Golos+Text&family=Shantell+Sans:wght@300&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+
+}
+
+h1 {
+    color: #7755fb;
+    font-family: serif;
+    margin-bottom: 10px;
+}
+
+#page-title{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.title{
+    font-size: 18px;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    background: linear-gradient(45deg, black, transparent);
+}
+
+#logo-nav{
+    width: 60px;
+    height: 60px;
+}
+
+
+
+#main-nav{
+    margin-top: 10px;
+    list-style: none;
+    padding-left: 0px;
+}
+
+#main-nav li{
+    display: inline-flex;
+    justify-content: center;
+}
+
+#main-nav a{
+    color: white;
+    background-color: rgb(58, 58, 58);
+    padding: 9px;
+    border-radius: 5px;
+    text-decoration: none;
+    
+}
+
+.page-main{
+    display: inline-flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    margin: 20px 8px;
+}
+
+.Bibliografia-main{
+    padding: 6px 6px;
+    width: 190px;
+    height: 388px;
+    border-radius: 10px;
+    box-shadow: 6px 5px 14px #33027473;
+    background-color: rgb(0 0 0 / 18%);
+}
+
+.Biografia-Articulo{
+    display: inline-grid;
+    padding: 1px;
+    width: auto;
+    margin-right: 44px;
+    font-family: 'Golos Text', sans-serif;
+}
+
+.Biografia-Articulo h1{
+    margin-top: 16px;
+}
+
+.Bibliografia-lista{
+    
+}
+
+.Bibliografia-titulo{
+    padding: 1px;
+    margin-bottom: 8px;
+    list-style: none;
+    font-family: 'Golos Text', sans-serif;
+    font-size: 14px;
+
+}
+
+.discografia-main{
+
+}
+
+.discografia-main__lista{
+    padding: 20px;
+    margin: 5px 5px;
+    width: 500px;
+    height: 500px;
+}
+
+
