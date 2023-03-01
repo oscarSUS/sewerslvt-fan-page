@@ -100,15 +100,53 @@ h1 {
 
 }
 
-.discografia-main{
+.page-main__discografia{
+    display: inline-flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    margin: 20px 8px;
+    padding: 6px 6px;
+    width: 784px;
+    height: 408px;
+    border-radius: 10px;
+    box-shadow: 6px 5px 14px #33027473;
+    background-color: rgb(0 0 0 / 18%);
+}
 
+.discografia-padre h2{
+    margin-bottom: 18px;
 }
 
 .discografia-main__lista{
-    padding: 20px;
-    margin: 5px 5px;
-    width: 500px;
-    height: 500px;
+    display: flex;
+    flex-direction: row;
+    width: 806px;
+    height: 348px;
 }
 
+.discografia-lista--Ep{
+    margin-right: 33px;
+    padding-right: 13px;
+    border-right: groove 3px ghostwhite;
+    
+    padding-left: 32px;
+}
+
+.discografia-lista{ 
+    margin-right: 33px;
+    padding-right: 13px;
+    border-right: groove 3px ghostwhite;
+}
+
+.discografia-lista h1{
+    margin-bottom: 19px;
+}
+
+.discografia-lista a, .discografia-lista--Ep a{
+    text-decoration: none;
+}
+
+.discografia-lista li, .discografia-lista--Ep li{
+    margin-bottom: 12px;
+}
 
