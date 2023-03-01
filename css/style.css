@@ -8,7 +8,7 @@
 
 
 body{
- width: auto;
+ 
 }
 
 h1 {
@@ -29,7 +29,7 @@ h1 {
     display: flex;
     justify-content: space-between;
     flex-direction: row;
-    background: linear-gradient(45deg, black, transparent);
+    background: linear-gradient(45deg, black, white);
 }
 
 #logo-nav{
@@ -90,7 +90,8 @@ h1 {
 }
 
 .discografia-padre{
-    
+    background-color: #fffffff7;
+  
 }
 
 .Bibliografia-titulo{
@@ -140,3 +141,15 @@ h1 {
     margin-bottom: 12px;
 }
 
+.arte-main{
+    
+}
+
+.arte-historia{
+    width: 400px;
+    font-family: 'Golos Text', sans-serif;
+}
+
+.arte-historia h2{
+    margin-bottom: 18px;
+}
