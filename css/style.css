@@ -415,6 +415,18 @@ input[id="13"]:checked ~ .pagination .pagination-item[for="13"]{
     }
 }
 
+.page-main-three{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    /*background: linear-gradient(to bottom, -10deg, #270e62, white);*/
+
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgb(76, 27, 139));
+
+    margin-top: 36px;
+}
+
 .page-articulo{
     font-family: 'Golos Text', sans-serif;
 }
@@ -422,23 +434,27 @@ input[id="13"]:checked ~ .pagination .pagination-item[for="13"]{
 .page-articulo h2{
     display: flex;
     justify-content: center;
+    margin-bottom: 18px;
 }
 
 .page-articulo p{
     display: flex;
     justify-content: center;
+    margin-bottom: 18px;
 }
+
 
 .container-video{
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 0px;
-    border-radius: 7px;
+    border-radius: 4px;
     position: relative;
     max-width: 800px;
     width: 100%;
     border: solid 1px;
+    box-shadow: 6px 6px 20px #040206;
     overflow: hidden;
 }
 
@@ -472,8 +488,9 @@ source{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-end;
     width: 100%;
+    margin-bottom: 415px;
 }
 
 .pagination-item-video{
@@ -487,7 +504,7 @@ source{
     overflow: hidden;
     cursor: pointer;
     background: rgba(10, 10, 10, 0.5);
-    margin: -433px 7px;
+    margin: 2px 7px;
     text-align: center;
     transition: all 300ms;
 }
