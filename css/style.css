@@ -142,6 +142,8 @@ h1 {
     flex-wrap: nowrap;
     justify-content: space-around;
     margin-top: 36px;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgb(76, 27, 139));
+    background-color: white;
 }
 
 .arte-historia{
@@ -421,9 +423,8 @@ input[id="13"]:checked ~ .pagination .pagination-item[for="13"]{
     flex-direction: column;
     align-items: center;
     /*background: linear-gradient(to bottom, -10deg, #270e62, white);*/
-
-    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgb(76, 27, 139));
-
+    background-image: linear-gradient(to left, rgba(255, 255, 255, 0), rgb(76, 27, 139));
+    height: 591px;
     margin-top: 36px;
 }
 
@@ -443,6 +444,9 @@ input[id="13"]:checked ~ .pagination .pagination-item[for="13"]{
     margin-bottom: 18px;
 }
 
+.container-video-parrafo{
+    display: inline-flex;
+}
 
 .container-video{
     display: flex;
@@ -456,6 +460,16 @@ input[id="13"]:checked ~ .pagination .pagination-item[for="13"]{
     border: solid 1px;
     box-shadow: 6px 6px 20px #040206;
     overflow: hidden;
+}
+
+.container-parrafo{
+    font-family: 'Golos Text', sans-serif;
+    padding: 41px 40px;
+    width: 370px;
+}
+
+.container-parrafo-item{
+    font-family: 'Golos Text', sans-serif;
 }
 
 source{
@@ -564,3 +578,26 @@ input[id="4video"]:checked ~ .pagination-video .pagination-item-video[for="4vide
     background: #6a1ad7b8;
 }
 
+.page-main-four{
+    margin-top: 40px;
+}
+
+.container-articulo-vida-sewer{
+    font-family: 'Golos Text', sans-serif;
+}
+
+.container-articulo-vida-sewer h2{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 18px;
+}
+
+.container-articulo-vida-sewer p{
+    margin-bottom: 25px;
+    padding: 1px 76px;
+} 
+
+.container-yt{
+    display: flex;
+    justify-content: space-evenly;
+}
