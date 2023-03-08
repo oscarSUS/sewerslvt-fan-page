@@ -13,12 +13,10 @@ body{
 h1 {
     color: #7755fb;
     font-family: 'Golos Text', sans-serif;
-    margin-bottom: 10px;
+    margin-bottom: 13px;
+    font-size: 19px;
 }
 
-#page-title{
-    font-family: Arial, Helvetica, sans-serif;
-}
 
 .title{
     font-size: 18px;
@@ -67,66 +65,96 @@ h1 {
 }
 
 .page-main{
-    display: inline-flex;
+    display: flex;
     flex-wrap: nowrap;
-    justify-content: flex-start;
-    margin: 20px 8px;
+    margin: 10px 0px;
+    flex-direction: column;
 }
 
-.Bibliografia-main{
-    padding: 6px 6px;
-    margin-top: 6px;
-    margin-left: 40px;
-    width: 190px;
-    height: 388px;
-    border-radius: 10px;
-    box-shadow: 6px 5px 14px #33027473;
-    background-color: rgb(0 0 0 / 18%);
-}
-
-.Biografia-Articulo{
-    display: inline-grid;
-    padding: 1px;
-    width: auto;
-    margin-right: 0px;
-    font-family: 'Golos Text', sans-serif;
-    margin-left: 0px;
-}
-
-.Biografia-Articulo h1{
-    margin-top: 16px;
-}
+/*main 1*/
 
 .discografia-padre{
     background-color: #fffffff7;
     font-family: 'Golos Text', sans-serif;
-}
-
-.Bibliografia-titulo{
-    padding: 1px;
-    margin-bottom: 8px;
-    list-style: none;
-    font-family: 'Golos Text', sans-serif;
-    font-size: 14px;
-
+    display: flex;
+    flex-direction: column;
+    margin-left: 6px;
+    margin-right: 6px;
+    margin-bottom: 370px;
+    margin-top: 45px;
 }
 
 .discografia-padre h2{
-    margin-bottom: 16px;
+    
+}
+
+.discografia-lista h1{
+    margin-bottom: 19px;
+}
+
+.discografia-lista{ 
+    font-size: 14px;
+    margin-bottom: 25px;
+}
+
+.discografia-lista a, .discografia-lista--Ep a{
+    text-decoration: none;
+}
+
+.discografia-lista li, .discografia-lista--Ep li{
+    margin-bottom: 9px;
 }
 
 .discografia-main__lista{
     display: flex;
-    flex-direction: row;
-    width: 806px;
-    height: 348px;
+    flex-direction: column;
 }
 
-.discografia-lista--Ep{
-    margin-right: 33px;
-    padding-right: 13px;
-    border-right: groove 3px ghostwhite;
-    padding-left: 32px;
+.discografia-lista li a{
+    color: black;
+}
+
+.discografia-lista li a:hover{
+    color: #7755fb;
+}
+/*-------------------------------------------------*/
+
+/*main 2*/
+
+.page-main-two{
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top: 670px;
+    margin-bottom: 670px;
+    background-color: white;
+    border-radius: 6px;
+    flex-direction: column;
+    height: 0;
+    margin-right: 6px;
+    margin-left: 6px;
+}
+
+.Bibliografia-main{
+    padding: 6px 6px;
+    width: 347px;
+    height: 388px;
+    border-radius: 10px;
+    box-shadow: 6px 5px 14px #33027473;
+    background-color: rgb(0 0 0 / 18%);
+    margin-top: 0;
+    margin-left: 0;
+}
+
+.Bibliografia-titulo{
+    padding: 1px;
+    margin-bottom: 12px;
+    list-style: none;
+    font-family: 'Golos Text', sans-serif;
+    font-size: 14px;
+}
+
+.Biografia-Articulo p{
+    font-size: 14px;
 }
 
 .Bibliografia-titulo li a{
@@ -138,57 +166,42 @@ h1 {
     color:#7755fb
 }
 
-.discografia-lista li a{
-    color: black;
-}
-
-.discografia-lista li a:hover{
-    color: #7755fb;
-}
-
-.discografia-lista{ 
-    margin-right: 33px;
-    padding-right: 13px;
-    border-right: groove 3px ghostwhite;
-}
-
-.discografia-lista h1{
-    margin-bottom: 19px;
-}
-
-.discografia-lista a, .discografia-lista--Ep a{
-    text-decoration: none;
-}
-
-.discografia-lista li, .discografia-lista--Ep li{
-    margin-bottom: 12px;
-}
-
-.page-main-two{
-    display: inline-flex;
-    flex-wrap: nowrap;
-    justify-content: space-around;
-    margin-top: 60px;
-    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgb(76, 27, 139));
-    background-color: white;
-    border-radius: 6px;
-    align-items: center;
-    height: 460px;
+.arte-main{
+    display: flex;
+    padding: 1px;
+    width: auto;
+    font-family: 'Golos Text', sans-serif;
+    flex-direction: column;
+    margin-top: 75px;
+    margin-bottom: 0px;
 }
 
 .arte-historia{
-    margin-left: 122px;
-    margin-right: 102px;
-    width: 427px;
+    display: flex;
+    margin-left: 0;
+    margin-right: 0;
+    width: auto;
     font-family: 'Golos Text', sans-serif;
+    font-size: 14px;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgb(123 113 137));
+    height: 390px;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .arte-historia h2{
-    margin-bottom: 18px;
+    font-size: 24px;
+    margin-bottom: 16px;
 }
 
 .container-galeria{
-    margin-right: 32px;
+    margin-right: 0;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgb(123 113 137));
+    height: 419px;
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
 
 .container-all{
@@ -196,12 +209,12 @@ h1 {
     align-items: center;
     justify-content: center;
     padding: 0px;
-    border-radius: 7px;
+    border-radius: 5px;
     position: relative;
     max-width: 395px;
     width: 100%;
     overflow: hidden;
-    box-shadow: -6px 8px 15px -2px #000000d9;
+    box-shadow: 0px 13px 21px -2px #000000d9;
 }
 
 img{
@@ -244,7 +257,7 @@ img{
     flex-direction: column;
     align-items: center;
     border: 1px solid white;
-    width: 14px;
+    width: 13px;
     height: 14px;
     border-radius: 4px;
     overflow: hidden;
@@ -256,7 +269,7 @@ img{
 }
 
 .pagination-item:hover{
-    transform: scale(2);
+    transform: scale(1.5);
 }
 
 .pagination-item img{
@@ -448,18 +461,18 @@ input[id="13"]:checked ~ .pagination .pagination-item[for="13"]{
         transform: translate3d(calc(-100 * 13), 0, 0);
     }
 }
+/*--------------------------------------------------*/
+
 
 .page-main-three{
     display: flex;
     justify-content: center;
     flex-direction: column;
-    align-items: center;
-    /*background: linear-gradient(to bottom, -10deg, #270e62, white);*/
-    background-image: linear-gradient(to left, rgba(255, 255, 255, 0), rgb(76, 27, 139));
-    height: 591px;
-    margin-top: 36px;
-    margin-left: 39px;
-    border-radius: 6px;
+    background-image: linear-gradient(to left, rgba(255, 255, 255, 0), rgb(123 113 137));
+    height: 587px;
+    margin-top: 0;
+    margin-left: 0;
+    border-radius: 0;
     background-color: white;
 }
 
@@ -477,26 +490,35 @@ input[id="13"]:checked ~ .pagination .pagination-item[for="13"]{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 18px;
+    margin-bottom: 10px;
     color: white;
     background-color: #000000a8;
     border-radius: 4px;
-    width: 838px;
-    height: 31px;
+    width: 351px;
+    height: 62px;
+    font-size: 12px;
+    padding: 1px 1px;
 }
 
 .page-articulo-right{
-    margin-right: 7px;
-    font-size: 25px;
+    margin-right: 10px;
+    font-size: 50px;
+    margin-left: 7px;
 }
 
 .page-articulo-left{
-    margin-left: 7px;
-    font-size: 25px;
+    margin-right: 10px;
+    font-size: 50px;
+    margin-left: 5px;
 }
 
 .container-video-parrafo{
-    display: inline-flex;
+    display: flex;
+    flex-direction: column;
+}
+
+.container-all-video{
+    padding: 10px;
 }
 
 .container-video{
@@ -515,8 +537,9 @@ input[id="13"]:checked ~ .pagination .pagination-item[for="13"]{
 
 .container-parrafo{
     font-family: 'Golos Text', sans-serif;
-    padding: 41px 40px;
+    padding: 20px 10px 0px;
     width: 370px;
+    font-size: 14px;
 }
 
 .container-parrafo-item{
@@ -555,7 +578,7 @@ source{
     align-items: center;
     justify-content: flex-end;
     width: 100%;
-    margin-bottom: 415px;
+    margin-bottom: 172px;
 }
 
 .pagination-item-video{
@@ -645,27 +668,34 @@ input[id="4video"]:checked ~ .pagination-video .pagination-item-video[for="4vide
 }
 
 .container-articulo-vida-sewer p{
-    margin-bottom: 25px;
-    padding: 1px 76px;
+    margin-bottom: 22px;
+    padding: 1px 10px;
+    font-size: 14px;
 } 
 
 .container-yt{
     display: flex;
-    justify-content: space-evenly;
-    align-content: center;
     height: 400px;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     margin: 0px 20px;
     border-radius: 10px;
-    background: url(./images/fondosewer80.jpg);
+    /*background: url(./images/fondosewer80.jpg);*/
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    position: relative;
+    flex-direction: column;
+    align-items: center;
 }
 
 .container-item-yt{
-    box-shadow: 2px 0px 32px 0px rgb(145 81 229);
+    box-shadow: 2px 0px 22px 1px rgb(145 81 229);
+    width: 360px;
+    height: 315px;
+}
+
+.container-item-yt iframe{
+    width: 100%;
+    height: 100%;
 }
 
 /*footer*/
@@ -678,12 +708,12 @@ input[id="4video"]:checked ~ .pagination-video .pagination-item-video[for="4vide
 
 .pie-pagina .grupo-1{
     width: 100%;
-    max-width: auto;
     margin: auto;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 50px;
-    padding: 5px 0px;
+    display: flex;
+    padding: 7px 0px;
+    flex-direction: column;
+    align-items: center;
+    grid-gap: 0px;
 }
 
 .pie-pagina .grupo-1 .box figure{
@@ -695,32 +725,37 @@ input[id="4video"]:checked ~ .pagination-video .pagination-item-video[for="4vide
 }
 
 .pie-pagina .grupo-1 .box{
-    margin-top: 38px;
+    display: flex;
+    margin-top: 7px;
+    flex-direction: column;
+    align-items: center;
 }
 
 .pie-pagina .grupo-1 .box figure img{
-    width: 200px;
+    width: 150px;
+}
+
+.pie-pagina .grupo-1 h3 {
+    color: #fff;
+    margin-top: 28px;
+    margin-bottom: 25px;
+    font-size: 18px;
 }
 
 .pie-pagina .grupo-1 h2{
     color: #efefef;
     margin-top: 28px;
-    margin-bottom: 25px;
-    font-size: 20px;
+    margin-bottom: 8px;
+    font-size: 18px;
 }
 
-.pie-pagina .grupo-1 h3{
-    color:#fff;
-    margin-top: 28px;
-    margin-bottom: 25px;
-    font-size: 20px;
-}
+
 
 .pie-pagina .grupo-1 .box p{
     color: #efefef;
     text-decoration: none;
     margin-bottom: 10px;
-    font-size: 12px;
+    font-size: 10px;
 }
 
 .pie-pagina .grupo-1 .box p a{
@@ -751,11 +786,11 @@ input[id="4video"]:checked ~ .pagination-video .pagination-item-video[for="4vide
 
 .pie-pagina .grupo-2{
     background:#1c0e2a;
-    padding: 7px 10px;
+    padding: 3px 10px;
     text-align: center;
     color:#fff
 }
 
 .pie-pagina .grupo-2 small{
-    font-size: 12px;
+    font-size: 9px;
 }
