@@ -68,27 +68,18 @@ h1 {
 
 .page-main{
     display: inline-flex;
+    justify-content: center;
+    margin: 20px auto;
+    flex-direction: row;
     flex-wrap: nowrap;
-    justify-content: flex-start;
-    margin: 20px 8px;
-}
-
-.Bibliografia-main{
-    padding: 6px 6px;
-    margin-top: 6px;
-    margin-left: 40px;
-    width: 190px;
-    height: 388px;
-    border-radius: 10px;
-    box-shadow: 6px 5px 14px #33027473;
-    background-color: rgb(0 0 0 / 18%);
+    width: 1349px;
 }
 
 .Biografia-Articulo{
     display: inline-grid;
-    padding: 1px;
+    padding: 1px 10px;
     width: auto;
-    margin-right: 6px;
+    margin-right: 67px;
     font-family: 'Golos Text', sans-serif;
     margin-left: 6px;
 }
@@ -97,22 +88,29 @@ h1 {
     margin-top: 16px;
 }
 
+.Biografia-Articulo p{
+    font-size: 15px;
+}
+
 .discografia-padre{
     background-color: #fffffff7;
     font-family: 'Golos Text', sans-serif;
-}
-
-.Bibliografia-titulo{
-    padding: 1px;
-    margin-bottom: 8px;
-    list-style: none;
+    display: inline-grid;
+    padding: 1px 0px;
+    width: auto;
+    margin-right: 0px;
     font-family: 'Golos Text', sans-serif;
-    font-size: 14px;
-
+    margin-left: 6px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 .discografia-padre h2{
     margin-bottom: 16px;
+}
+
+.discografia-lista h1{
+    margin-bottom: 19px;
 }
 
 .discografia-main__lista{
@@ -120,13 +118,6 @@ h1 {
     flex-direction: row;
     width: 806px;
     height: 348px;
-}
-
-.discografia-lista--Ep{
-    margin-right: 33px;
-    padding-right: 13px;
-    border-right: groove 3px ghostwhite;
-    padding-left: 32px;
 }
 
 .Bibliografia-titulo li a{
@@ -150,44 +141,77 @@ h1 {
     margin-right: 33px;
     padding-right: 13px;
     border-right: groove 3px ghostwhite;
+    font-size: 15px;
+    margin-bottom: 25px;
 }
 
-.discografia-lista h1{
-    margin-bottom: 19px;
-}
-
-.discografia-lista a, .discografia-lista--Ep a{
-    text-decoration: none;
-}
-
-.discografia-lista li, .discografia-lista--Ep li{
-    margin-bottom: 12px;
-}
 
 .page-main-two{
     display: inline-flex;
     flex-wrap: nowrap;
-    justify-content: space-around;
-    margin-top: 60px;
+    margin: 30px auto;
     background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgb(76, 27, 139));
     background-color: white;
     border-radius: 6px;
-    align-items: center;
     height: 460px;
+    width: 1316px;
+    flex-direction: row;
+    align-items: center;
+}
+
+.Bibliografia-main{
+    padding: 6px 6px;
+    margin-top: 6px;
+    margin-left: 40px;
+    width: 190px;
+    height: 388px;
+    border-radius: 10px;
+    box-shadow: 6px 5px 14px #33027473;
+    background-color: rgb(0 0 0 / 18%);
+}
+
+.Bibliografia-titulo{
+    padding: 1px;
+    margin-bottom: 8px;
+    list-style: none;
+    font-family: 'Golos Text', sans-serif;
+    font-size: 14px;
+
+}
+
+.arte-main{
+    display: flex;
+    padding: 1px;
+    width: auto;
+    font-family: 'Golos Text', sans-serif;
+    flex-direction: column;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 .arte-historia{
+    display: inline-grid;
+    align-items: center;
+    align-content: space-evenly;
+    font-size: 15px;
+    background-image: linear-gradient(to right, rgb(255 255 255 / 0%), rgb(123 113 137 / 0%));
     margin-left: 122px;
     margin-right: 102px;
     width: 427px;
     font-family: 'Golos Text', sans-serif;
+    height: 390px;
+    padding: 1px 1px;
 }
 
 .arte-historia h2{
-    margin-bottom: 18px;
+    margin-bottom: 0px;
+    font-size: 24px;
 }
 
 .container-galeria{
+    display: block;
+    background-image: linear-gradient(to right, rgb(255 255 255 / 0%), rgb(123 113 137 / 0%));
+    height: max-content;
     margin-right: 32px;
 }
 
@@ -456,9 +480,9 @@ input[id="13"]:checked ~ .pagination .pagination-item[for="13"]{
     align-items: center;
     /*background: linear-gradient(to bottom, -10deg, #270e62, white);*/
     background-image: linear-gradient(to left, rgba(255, 255, 255, 0), rgb(76, 27, 139));
-    height: 591px;
-    margin-top: 36px;
-    margin-left: 39px;
+    margin: 33px auto;
+    height: 611px;
+    width: 1316px;
     border-radius: 6px;
     background-color: white;
 }
@@ -483,6 +507,8 @@ input[id="13"]:checked ~ .pagination .pagination-item[for="13"]{
     border-radius: 4px;
     width: 838px;
     height: 31px;
+    font-size: 15px;
+    padding: 1px 1px;
 }
 
 .page-articulo-right{
@@ -495,8 +521,15 @@ input[id="13"]:checked ~ .pagination .pagination-item[for="13"]{
     font-size: 25px;
 }
 
+.container-all-video{
+    width: 850px;
+    padding: 5px;
+}
+
 .container-video-parrafo{
     display: inline-flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 .container-video{
@@ -515,12 +548,9 @@ input[id="13"]:checked ~ .pagination .pagination-item[for="13"]{
 
 .container-parrafo{
     font-family: 'Golos Text', sans-serif;
-    padding: 41px 40px;
+    padding: 16px 23px;
     width: 370px;
-}
-
-.container-parrafo-item{
-    font-family: 'Golos Text', sans-serif;
+    font-size: 15px;
 }
 
 source{
@@ -630,8 +660,9 @@ input[id="4video"]:checked ~ .pagination-video .pagination-item-video[for="4vide
 }
 
 .page-main-four{
-    margin-top: 50px;
+    margin: 60px 0px auto;
     background: linear-gradient(to bottom, rgba(255, 255, 255) 17%, rgb(0, 0, 0) 67%);
+    width: 1349px;
 }
 
 .container-articulo-vida-sewer{
@@ -647,6 +678,7 @@ input[id="4video"]:checked ~ .pagination-video .pagination-item-video[for="4vide
 .container-articulo-vida-sewer p{
     margin-bottom: 25px;
     padding: 1px 76px;
+    font-size: 15px;
 } 
 
 .container-yt{
@@ -655,17 +687,20 @@ input[id="4video"]:checked ~ .pagination-video .pagination-item-video[for="4vide
     align-content: center;
     height: 400px;
     flex-wrap: wrap;
-    margin: 0px 20px;
-    border-radius: 10px;
+    margin: 0px 15px;
+    border-radius: 6px;
     background: url(./images/fondosewer80.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     position: relative;
+    flex-direction: row;
 }
 
 .container-item-yt{
     box-shadow: 2px 0px 32px 0px rgb(145 81 229);
+    width: 560px;
+    height: 315px;
 }
 
 /*footer*/
@@ -683,7 +718,7 @@ input[id="4video"]:checked ~ .pagination-video .pagination-item-video[for="4vide
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 50px;
-    padding: 5px 0px;
+    padding: 10px 0px;
 }
 
 .pie-pagina .grupo-1 .box figure{
@@ -695,6 +730,9 @@ input[id="4video"]:checked ~ .pagination-video .pagination-item-video[for="4vide
 }
 
 .pie-pagina .grupo-1 .box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     margin-top: 38px;
 }
 
