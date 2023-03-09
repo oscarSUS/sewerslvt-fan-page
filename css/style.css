@@ -16,6 +16,11 @@ h1 {
     margin-bottom: 10px;
 }
 
+.page-header{
+    margin: 0 auto;
+    width: 1349px;
+}
+
 #page-title{
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -474,21 +479,23 @@ input[id="13"]:checked ~ .pagination .pagination-item[for="13"]{
 }
 
 .page-main-three{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
+    display: inline-flex;
     align-items: center;
-    /*background: linear-gradient(to bottom, -10deg, #270e62, white);*/
     background-image: linear-gradient(to left, rgba(255, 255, 255, 0), rgb(76, 27, 139));
-    margin: 33px auto;
+    margin: 33px 0px 0px 15px;
     height: 611px;
     width: 1316px;
     border-radius: 6px;
     background-color: white;
+    flex-wrap: nowrap;
 }
 
 .page-articulo{
     font-family: 'Golos Text', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .page-articulo h2{
@@ -663,6 +670,7 @@ input[id="4video"]:checked ~ .pagination-video .pagination-item-video[for="4vide
     margin: 60px 0px auto;
     background: linear-gradient(to bottom, rgba(255, 255, 255) 17%, rgb(0, 0, 0) 67%);
     width: 1349px;
+    height: 526px;
 }
 
 .container-articulo-vida-sewer{
@@ -706,7 +714,8 @@ input[id="4video"]:checked ~ .pagination-video .pagination-item-video[for="4vide
 /*footer*/
 
 .pie-pagina{
-    width: 100%;
+    margin: 0px auto;
+    width: 1349px;
     background-color: #040206;
     font-family: 'Golos Text', sans-serif;
 }
