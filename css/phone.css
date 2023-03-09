@@ -134,10 +134,10 @@ h1 {
 .page-main-two{
     display: flex;
     flex-wrap: nowrap;
-    margin-top: -6px;
-    margin-bottom: 1205px;
+    margin-top: 38px;
+    margin-bottom: 38px;
     flex-direction: column;
-    height: 0;
+    height: auto;
     margin-right: 6px;
     margin-left: 6px;
 }
@@ -149,9 +149,7 @@ h1 {
     border-radius: 10px;
     box-shadow: 6px 5px 14px #33027473;
     background-color: rgb(0 0 0 / 18%);
-    margin-top: 0;
-    margin-left: 0;
-    margin: 0px auto;
+    margin: 0px auto 38px auto;
 }
 
 .Bibliografia-titulo{
@@ -480,8 +478,8 @@ input[id="13"]:checked ~ .pagination .pagination-item[for="13"]{
     height: 587px;
     margin-right: 6px;
     margin-left: 6px;
-    margin-top: 38px;
-    margin-bottom: 38px;
+    margin-top: 80px;
+    margin-bottom: 80px;
     border-radius: 0;
     background-color: white;
 }
