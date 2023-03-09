@@ -10,28 +10,29 @@ body{
  
 }
 
+.page-header{
+    margin: 0px auto;
+    width: auto;
+}
+
 h1 {
     color: #7755fb;
     font-family: 'Golos Text', sans-serif;
-    margin-bottom: 13px;
-    font-size: 19px;
-}
-
-
-.title{
-    font-size: 18px;
+    margin-bottom: 15px;
+    font-size: 17px;
 }
 
 .nav{
     display: flex;
     justify-content: space-between;
     flex-direction: row;
-    background: linear-gradient(45deg, black, white);
+    background: linear-gradient(80deg, black, white);
+    height: 45px;
 }
 
 #logo-nav{
-    width: 60px;
-    height: 60px;
+    width: 45px;
+    height: 45px;
 }
 
 #main-nav{
@@ -42,50 +43,59 @@ h1 {
 }
 
 #main-nav li{
+    width: 50px;
+    height: 26px;
     display: inline-flex;
     justify-content: center;
 }
 
 #main-nav a{
-    width: 75px;
+    width: 50px;
+    height: 25px;
     display: inline-flex;
-    align-items: center;
-    justify-content: center;
     color: white;
     background-color: rgb(58, 58, 58);
-    padding: 9px;
-    border-radius: 5px;
-    margin-right: 10px;
+    padding: -2px;
+    border-radius: 3px;
+    margin-right: 1px;
     text-decoration: none;
     transition: all 300ms;
+    align-items: center;
+    justify-content: center;
+    font-size: 11px;
 }
 
 #main-nav a:hover{
     transform: scale(1.1);
 }
 
+/*main 1*/
+
 .page-main{
     display: flex;
     flex-wrap: nowrap;
-    margin: 10px 0px;
+    margin: 10px 6px;
     flex-direction: column;
+    font-family: 'Golos Text', sans-serif;
 }
 
-/*main 1*/
+.Biografia-Articulo h2{
+    margin-bottom: 15px;
+}
 
 .discografia-padre{
     background-color: #fffffff7;
     font-family: 'Golos Text', sans-serif;
     display: flex;
     flex-direction: column;
-    margin-left: 6px;
-    margin-right: 6px;
-    margin-bottom: 370px;
-    margin-top: 45px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 38px;
+    margin-top: 38px;
 }
 
 .discografia-padre h2{
-    
+    margin-bottom: 23px;
 }
 
 .discografia-lista h1{
@@ -124,10 +134,8 @@ h1 {
 .page-main-two{
     display: flex;
     flex-wrap: nowrap;
-    margin-top: 670px;
-    margin-bottom: 670px;
-    background-color: white;
-    border-radius: 6px;
+    margin-top: -6px;
+    margin-bottom: 1205px;
     flex-direction: column;
     height: 0;
     margin-right: 6px;
@@ -135,14 +143,15 @@ h1 {
 }
 
 .Bibliografia-main{
-    padding: 6px 6px;
-    width: 347px;
-    height: 388px;
+    padding: 6px 36px;
+    width: auto;
+    height: auto;
     border-radius: 10px;
     box-shadow: 6px 5px 14px #33027473;
     background-color: rgb(0 0 0 / 18%);
     margin-top: 0;
     margin-left: 0;
+    margin: 0px auto;
 }
 
 .Bibliografia-titulo{
@@ -172,7 +181,7 @@ h1 {
     width: auto;
     font-family: 'Golos Text', sans-serif;
     flex-direction: column;
-    margin-top: 75px;
+    margin-top: 46px;
     margin-bottom: 0px;
 }
 
@@ -183,8 +192,8 @@ h1 {
     width: auto;
     font-family: 'Golos Text', sans-serif;
     font-size: 14px;
-    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgb(123 113 137));
-    height: 390px;
+    /* background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgb(123 113 137)); */
+    height: 450px;
     justify-content: center;
     flex-direction: column;
 }
@@ -196,8 +205,7 @@ h1 {
 
 .container-galeria{
     margin-right: 0;
-    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgb(123 113 137));
-    height: 419px;
+    height: auto;
     display: flex;
     align-content: center;
     flex-direction: column;
@@ -211,7 +219,7 @@ h1 {
     padding: 0px;
     border-radius: 5px;
     position: relative;
-    max-width: 395px;
+    max-width: 284px;
     width: 100%;
     overflow: hidden;
     box-shadow: 0px 13px 21px -2px #000000d9;
@@ -257,13 +265,13 @@ img{
     flex-direction: column;
     align-items: center;
     border: 1px solid white;
-    width: 13px;
+    width: 14px;
     height: 14px;
     border-radius: 4px;
     overflow: hidden;
     cursor: pointer;
     background: rgba(10, 10, 10, 0.5);
-    margin: -5px 7px;
+    margin: 0px 3px;
     text-align: center;
     transition: all 300ms;
 }
@@ -470,8 +478,10 @@ input[id="13"]:checked ~ .pagination .pagination-item[for="13"]{
     flex-direction: column;
     background-image: linear-gradient(to left, rgba(255, 255, 255, 0), rgb(123 113 137));
     height: 587px;
-    margin-top: 0;
-    margin-left: 0;
+    margin-right: 6px;
+    margin-left: 6px;
+    margin-top: 38px;
+    margin-bottom: 38px;
     border-radius: 0;
     background-color: white;
 }
@@ -490,26 +500,26 @@ input[id="13"]:checked ~ .pagination .pagination-item[for="13"]{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 10px;
     color: white;
     background-color: #000000a8;
     border-radius: 4px;
-    width: 351px;
-    height: 62px;
+    width: auto;
+    height: 80px;
     font-size: 12px;
     padding: 1px 1px;
+    margin: 0px 5px 10px 5px;
 }
 
 .page-articulo-right{
-    margin-right: 10px;
+    margin-right: 6px;
     font-size: 50px;
-    margin-left: 7px;
+    margin-left: 5px;
 }
 
 .page-articulo-left{
-    margin-right: 10px;
     font-size: 50px;
-    margin-left: 5px;
+    margin-left: 3px;
+    margin-right: 4px;
 }
 
 .container-video-parrafo{
@@ -537,8 +547,8 @@ input[id="13"]:checked ~ .pagination .pagination-item[for="13"]{
 
 .container-parrafo{
     font-family: 'Golos Text', sans-serif;
-    padding: 20px 10px 0px;
-    width: 370px;
+    padding: 20px 5px 0px;
+    width: auto;
     font-size: 14px;
 }
 
@@ -571,14 +581,14 @@ source{
 
 .pagination-video{
     position: absolute;
-    bottom: 10px;
+    bottom: 9px;
     left: 0;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: flex-end;
     width: 100%;
-    margin-bottom: 164px;
+    margin-bottom: 117px;
 }
 
 .pagination-item-video{
@@ -655,6 +665,8 @@ input[id="4video"]:checked ~ .pagination-video .pagination-item-video[for="4vide
 .page-main-four{
     margin-top: 50px;
     background: linear-gradient(to bottom, rgba(255, 255, 255) 17%, rgb(0, 0, 0) 67%);
+    margin-left: 6px;
+    margin-right: 6px;
 }
 
 .container-articulo-vida-sewer{
@@ -685,12 +697,13 @@ input[id="4video"]:checked ~ .pagination-video .pagination-item-video[for="4vide
     background-size: cover;
     flex-direction: column;
     align-items: center;
+    grid-gap: 50px;
 }
 
 .container-item-yt{
-    box-shadow: 2px 0px 22px 1px rgb(145 81 229);
-    width: 360px;
-    height: 315px;
+    box-shadow: 2px 0px 9px 1px rgb(145 81 229);
+    width: auto;
+    height: auto;
 }
 
 .container-item-yt iframe{
@@ -704,6 +717,7 @@ input[id="4video"]:checked ~ .pagination-video .pagination-item-video[for="4vide
     width: 100%;
     background-color: #040206;
     font-family: 'Golos Text', sans-serif;
+    margin-top: 38px;
 }
 
 .pie-pagina .grupo-1{
@@ -726,19 +740,19 @@ input[id="4video"]:checked ~ .pagination-video .pagination-item-video[for="4vide
 
 .pie-pagina .grupo-1 .box{
     display: flex;
-    margin-top: 7px;
+    margin-top: 0px;
     flex-direction: column;
     align-items: center;
 }
 
 .pie-pagina .grupo-1 .box figure img{
-    width: 150px;
+    width: 115px;
 }
 
 .pie-pagina .grupo-1 h3 {
     color: #fff;
-    margin-top: 28px;
-    margin-bottom: 25px;
+    margin-top: 10px;
+    margin-bottom: 12px;
     font-size: 18px;
 }
 
@@ -785,10 +799,10 @@ input[id="4video"]:checked ~ .pagination-video .pagination-item-video[for="4vide
 }
 
 .pie-pagina .grupo-2{
-    background:#1c0e2a;
-    padding: 3px 10px;
+    background: #1c0e2a;
+    padding: 0px 10px;
     text-align: center;
-    color:#fff
+    color: #fff;
 }
 
 .pie-pagina .grupo-2 small{
