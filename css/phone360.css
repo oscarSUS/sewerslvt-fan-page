@@ -245,7 +245,6 @@ img{
     flex-direction: column;
     flex-shrink: 0;
     flex-grow: 0;
-    flex-basis: auto;
     max-width: 100%;
 }
 
