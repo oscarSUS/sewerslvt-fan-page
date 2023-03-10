@@ -137,7 +137,7 @@ h1 {
     margin-top: 38px;
     margin-bottom: 38px;
     flex-direction: column;
-    height: auto;
+    height: 0px;
     margin-right: 6px;
     margin-left: 6px;
 }
