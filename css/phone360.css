@@ -203,13 +203,12 @@ h1 {
 
 .container-galeria{
     margin: 0px auto;
-    height: auto;
     display: flex;
     align-content: center;
     flex-direction: column;
     flex-wrap: wrap;
-    width: 300px;
-    height: 300px;
+    width: auto;
+    height: auto;
 }
 
 .container-all{
@@ -265,13 +264,13 @@ img{
     flex-direction: column;
     align-items: center;
     border: 1px solid white;
-    width: 11px;
-    height: 11px;
+    width: 13px;
+    height: 13px;
     border-radius: 4px;
     overflow: hidden;
     cursor: pointer;
     background: rgba(10, 10, 10, 0.5);
-    margin: 0px 5px;
+    margin: 0px 4px;
     text-align: center;
     transition: all 300ms;
 }
@@ -596,13 +595,13 @@ source{
     flex-direction: column;
     align-items: center;
     border: 1px solid #ababab;
-    width: 11px;
-    height: 11px;
+    width: 13px;
+    height: 12px;
     border-radius: 4px;
     overflow: hidden;
     cursor: pointer;
     background: rgba(10, 10, 10, 0.5);
-    margin: 2px 7px;
+    margin: 0px 8px;
     text-align: center;
     transition: all 300ms;
 }
