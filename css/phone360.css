@@ -134,9 +134,12 @@ h1 {
 .page-main-two{
     display: flex;
     flex-wrap: nowrap;
-    
     flex-direction: column;
-    margin: 10px auto;
+    margin-top: 38px;
+    margin-bottom: 38px;
+    margin-left: 6px;
+    margin-right: 6px;
+    height: auto;
 }
 
 .Bibliografia-main{
