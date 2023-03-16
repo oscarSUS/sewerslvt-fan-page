@@ -82,8 +82,8 @@ h1 {
 }
 
 .Biografia-Articulo{
-    width: 1000px;
-    padding: 31px 94px 0px 0px;
+    width: 1205px;
+    padding: 31px 195px;
 }
 
 .Biografia-Articulo h2{
@@ -104,7 +104,7 @@ h1 {
 
 .discografia-padre h2{
     font-size: 50px;
-    margin-left: 29px;
+    margin-left: 44px;
     margin-bottom: 40px;
 }
 
@@ -117,8 +117,8 @@ h1 {
     margin-bottom: 25px;
     margin-left: 0px;
     margin-right: 30px;
-    width: 304px;
-    padding: 20px 55px;
+    width: 410px;
+    padding: 20px 75px;
 }
 
 .discografia-lista a, .discografia-lista--Ep a{
@@ -200,8 +200,8 @@ h1 {
 
 .arte-historia{
     display: flex;
-    margin-left: 100px;
-    margin-right: 70px;
+    margin-left: 30px;
+    margin-right: 30px;
     width: auto;
     font-family: 'Golos Text', sans-serif;
     font-size: 28px;
@@ -225,9 +225,9 @@ h1 {
     justify-content: center;
     background-image: linear-gradient(to right, rgb(255 255 255 / 0%), rgb(123 113 137 / 0%));
     padding: 0px;
-    width: 682px;
+    width: 500px;
     height: 500px;
-    margin: 0px 0px;
+    margin: 0px 125px;
 }
 
 .container-all{
@@ -497,8 +497,8 @@ input[id="13"]:checked ~ .pagination .pagination-item[for="13"]{
     height: 1118px;
     margin-right: 270px;
     margin-left: 270px;
-    margin-top: 150px;
-    margin-bottom: 110px;
+    margin-top: 250px;
+    margin-bottom: 250px;
     border-radius: 0;
     background-color: white;
 }
@@ -545,7 +545,7 @@ input[id="13"]:checked ~ .pagination .pagination-item[for="13"]{
 .container-video-parrafo{
     display: flex;
     flex-direction: row;
-    width: 2056px;
+    width: 2643px;
     justify-content: center;
 }
 
@@ -560,8 +560,8 @@ input[id="13"]:checked ~ .pagination .pagination-item[for="13"]{
     padding: 0px;
     border-radius: 4px;
     position: relative;
-    max-width: 1093px;
-    max-height: 482px;
+    max-width: 852px;
+    max-height: 478px;
     width: 100%;
     border: solid 1px;
     box-shadow: 0px 15px 42px #040206;
@@ -570,9 +570,8 @@ input[id="13"]:checked ~ .pagination .pagination-item[for="13"]{
 
 .container-parrafo{
     font-family: 'Golos Text', sans-serif;
-    padding: 104px 40px;
-    width: 1508px;
-    height: 483px;
+    padding: 129px 40px;
+    width: 1515px;
     font-size: 28px;
     background-image: linear-gradient(to left, rgba(255, 255, 255, 0), rgb(13 0 32 / 28%));
 }
@@ -691,12 +690,12 @@ input[id="4video"]:checked ~ .pagination-video .pagination-item-video[for="4vide
     background: linear-gradient(to bottom, rgb(255 255 255 / 0%) 35%, rgb(0 0 0 / 0%) 86%);
     margin-left: 270px;
     margin-right: 270px;
-    margin-top: 100px;
+    margin-top: 200px;
     margin-bottom: 70px;
 }
 
 .container-articulo-vida-sewer{
-    padding: 2px 1px;
+    padding: 2px 102px;
     font-family: 'Golos Text', sans-serif;
 }
 
