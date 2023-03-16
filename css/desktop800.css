@@ -85,7 +85,8 @@ h1 {
 }
 
 .Biografia-Articulo h2{
-    margin-bottom: 15px;
+    font-size: 50px;
+    margin-bottom: 40px;
 }
 
 .discografia-padre{
@@ -100,8 +101,9 @@ h1 {
 }
 
 .discografia-padre h2{
+    font-size: 50px;
     margin-left: 9px;
-    margin-bottom: 23px;
+    margin-bottom: 40px;
 }
 
 .discografia-lista h1{
@@ -152,9 +154,9 @@ h1 {
 }
 
 .Bibliografia-main{
-    padding: 10px 6px;
-    width: 202px;
-    height: 470px;
+    padding: 38px 20px;
+    width: 247px;
+    height: 429px;
     border-radius: 10px;
     box-shadow: 6px 5px 14px #33027473;
     background-color: rgb(0 0 0 / 18%);
@@ -170,7 +172,7 @@ h1 {
 }
 
 .Biografia-Articulo p{
-    font-size: 15px;
+    font-size: 16px;
 }
 
 .Bibliografia-titulo li a{
@@ -185,7 +187,7 @@ h1 {
 .arte-main{
     display: flex;
     padding: 1px;
-    width: 380px;
+    width: 448px;
     font-family: 'Golos Text', sans-serif;
     flex-direction: column;
     margin-top: 0px;
@@ -198,7 +200,7 @@ h1 {
     margin-right: 30px;
     width: auto;
     font-family: 'Golos Text', sans-serif;
-    font-size: 15px;
+    font-size: 16px;
     /* background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgb(123 113 137)); */
     height: auto;
     justify-content: center;
@@ -206,7 +208,7 @@ h1 {
 }
 
 .arte-historia h2{
-    font-size: 24px;
+    font-size: 50px;
     margin-bottom: 16px;
 }
 
@@ -215,8 +217,8 @@ h1 {
     justify-content: center;
     background-image: linear-gradient(to right, rgb(255 255 255 / 0%), rgb(123 113 137 / 0%));
     padding: 0px;
-    width: 450px;
-    height: 450px;
+    width: 444px;
+    height: 440px;
     margin: 0px auto;
 }
 
@@ -491,6 +493,7 @@ input[id="13"]:checked ~ .pagination .pagination-item[for="13"]{
     margin-bottom: 70px;
     border-radius: 0;
     background-color: white;
+    align-items: center;
 }
 
 .page-articulo{
@@ -547,7 +550,7 @@ input[id="13"]:checked ~ .pagination .pagination-item[for="13"]{
     padding: 0px;
     border-radius: 4px;
     position: relative;
-    max-width: 806px;
+    max-width: 804px;
     width: 100%;
     border: solid 1px;
     box-shadow: 0px 10px 23px #040206;
@@ -556,9 +559,9 @@ input[id="13"]:checked ~ .pagination .pagination-item[for="13"]{
 
 .container-parrafo{
     font-family: 'Golos Text', sans-serif;
-    padding: 109px 22px;
+    padding: 83px 22px;
     width: 420px;
-    font-size: 15px;
+    font-size: 16px;
     background-image: linear-gradient(to left, rgba(255, 255, 255, 0), rgb(13 0 32 / 28%));
 }
 
@@ -598,7 +601,7 @@ source{
     align-items: center;
     justify-content: flex-end;
     width: 100%;
-    margin-bottom: 410px;
+    margin-bottom: 417px;
 }
 
 .pagination-item-video{
@@ -699,7 +702,7 @@ input[id="4video"]:checked ~ .pagination-video .pagination-item-video[for="4vide
 
 .container-yt{
     display: flex;
-    height: 410px;
+    height: 488px;
     flex-wrap: nowrap;
     margin: 0px 4px;
     border-radius: 4px;
@@ -708,15 +711,15 @@ input[id="4video"]:checked ~ .pagination-video .pagination-item-video[for="4vide
     background-position: center;
     background-size: cover;
     flex-direction: row;
-    grid-gap: 100px;
+    grid-gap: 124px;
     align-items: center;
     padding: 30px 34px;
 }
 
 .container-item-yt{
     box-shadow: 2px 0px 40px 2px rgb(145 81 229);
-    width: 542px;
-    height: 305px;
+    width: 600px;
+    height: 350px;
 }
 
 .container-item-yt iframe{
@@ -821,4 +824,3 @@ input[id="4video"]:checked ~ .pagination-video .pagination-item-video[for="4vide
 .pie-pagina .grupo-2 small{
     font-size: 10px;
 }
-

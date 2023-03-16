@@ -7,7 +7,7 @@
 }
 
 body{
-    background: linear-gradient(to bottom, rgba(255, 255, 255) 83%, rgb(0 0 0) 67%);
+    background: linear-gradient(to bottom, rgba(255, 255, 255) 71%, rgb(0 0 0) 82%);
 }
 
 .page-header{
@@ -19,7 +19,7 @@ h1 {
     color: #7755fb;
     font-family: 'Golos Text', sans-serif;
     margin-bottom: 15px;
-    font-size: 17px;
+    font-size: 30px;
 }
 
 .nav{
@@ -27,32 +27,33 @@ h1 {
     justify-content: space-between;
     flex-direction: row;
     background: linear-gradient(80deg, black, white);
-    height: 60px;
+    height: 125px;
+    align-items: center;
 }
 
 #logo-nav{
-    width: 70px;
-    height: 70px;
+    width: 150px;
+    height: 150px;
 }
 
 #main-nav{
-    margin-top: 15px;
+    margin-top: 0px;
     list-style: none;
     padding-left: 0px;
     font-family: 'Golos Text', sans-serif;
 }
 
 #main-nav li{
-    width: 50px;
-    height: 26px;
+    width: 118px;
+    height: 58px;
     display: inline-flex;
     justify-content: center;
-    margin-right: 6px;
+    margin-right: 5px;
 }
 
 #main-nav a{
-    width: 50px;
-    height: 25px;
+    width: 96px;
+    height: 50px;
     display: inline-flex;
     color: white;
     background-color: rgb(58, 58, 58);
@@ -63,7 +64,7 @@ h1 {
     transition: all 300ms;
     align-items: center;
     justify-content: center;
-    font-size: 11px;
+    font-size: 23px;
 }
 
 #main-nav a:hover{
@@ -75,17 +76,19 @@ h1 {
 .page-main{
     display: flex;
     flex-wrap: nowrap;
-    margin: 10px 6px;
-    flex-direction: column;
+    margin: 70px 270px;
+    flex-direction: row;
     font-family: 'Golos Text', sans-serif;
 }
 
 .Biografia-Articulo{
-    padding: 4px 9px;
+    width: 1205px;
+    padding: 31px 195px;
 }
 
 .Biografia-Articulo h2{
-    margin-bottom: 15px;
+    font-size: 50px;
+    margin-bottom: 40px;
 }
 
 .discografia-padre{
@@ -100,8 +103,9 @@ h1 {
 }
 
 .discografia-padre h2{
-    margin-left: 9px;
-    margin-bottom: 23px;
+    font-size: 50px;
+    margin-left: 44px;
+    margin-bottom: 40px;
 }
 
 .discografia-lista h1{
@@ -109,10 +113,12 @@ h1 {
 }
 
 .discografia-lista{ 
-    font-size: 15px;
+    font-size: 20px;
     margin-bottom: 25px;
-    margin-left: 85px;
+    margin-left: 0px;
     margin-right: 30px;
+    width: 410px;
+    padding: 20px 75px;
 }
 
 .discografia-lista a, .discografia-lista--Ep a{
@@ -143,20 +149,20 @@ h1 {
     display: flex;
     flex-wrap: nowrap;
     flex-direction: row;
-    margin-top: 38px;
-    margin-bottom: 38px;
-    margin-left: 6px;
-    margin-right: 6px;
+    margin-top: 110px;
+    margin-bottom: 150px;
+    margin-left: 270px;
+    margin-right: 270px;
     height: auto;
     align-items: center;
 }
 
 .Bibliografia-main{
-    padding: 10px 6px;
-    width: 202px;
-    height: 470px;
+    padding: 31px 46px;
+    width: 461px;
+    height: 700px;
     border-radius: 10px;
-    box-shadow: 6px 5px 14px #33027473;
+    box-shadow: 13px 16px 16px #33027473;
     background-color: rgb(0 0 0 / 18%);
     margin: 0px auto;
 }
@@ -166,11 +172,11 @@ h1 {
     margin-bottom: 12px;
     list-style: none;
     font-family: 'Golos Text', sans-serif;
-    font-size: 14px;
+    font-size: 26px;
 }
 
 .Biografia-Articulo p{
-    font-size: 15px;
+    font-size: 28px;
 }
 
 .Bibliografia-titulo li a{
@@ -185,7 +191,7 @@ h1 {
 .arte-main{
     display: flex;
     padding: 1px;
-    width: 380px;
+    width: 1049px;
     font-family: 'Golos Text', sans-serif;
     flex-direction: column;
     margin-top: 0px;
@@ -198,7 +204,7 @@ h1 {
     margin-right: 30px;
     width: auto;
     font-family: 'Golos Text', sans-serif;
-    font-size: 15px;
+    font-size: 28px;
     /* background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgb(123 113 137)); */
     height: auto;
     justify-content: center;
@@ -206,8 +212,12 @@ h1 {
 }
 
 .arte-historia h2{
-    font-size: 24px;
-    margin-bottom: 16px;
+    font-size: 50px;
+    margin-bottom: 40px;
+}
+
+.arte-historia p{
+    padding-bottom: 50px;
 }
 
 .container-galeria{
@@ -215,9 +225,9 @@ h1 {
     justify-content: center;
     background-image: linear-gradient(to right, rgb(255 255 255 / 0%), rgb(123 113 137 / 0%));
     padding: 0px;
-    width: 450px;
-    height: 450px;
-    margin: 0px auto;
+    width: 500px;
+    height: 500px;
+    margin: 0px 125px;
 }
 
 .container-all{
@@ -227,7 +237,7 @@ h1 {
     max-width: 500px;
     width: 100%;
     overflow: hidden;
-    box-shadow: -6px 8px 15px -2px #000000d9;
+    box-shadow: -9px 13px 20px -2px #000000d9;
 }
 
 img{
@@ -271,13 +281,13 @@ img{
     flex-direction: column;
     align-items: center;
     border: 1px solid white;
-    width: 15px;
-    height: 14px;
-    border-radius: 4px;
+    width: 20px;
+    height: 20px;
+    border-radius: 12px;
     overflow: hidden;
     cursor: pointer;
     background: rgba(10, 10, 10, 0.5);
-    margin: 0px 6px;
+    margin: 0px 7px;
     text-align: center;
     transition: all 300ms;
 }
@@ -484,11 +494,11 @@ input[id="13"]:checked ~ .pagination .pagination-item[for="13"]{
     justify-content: center;
     flex-direction: column;
     background-image: linear-gradient(to left, rgba(255, 255, 255, 0), rgb(123 113 137 / 0%));
-    height: 587px;
-    margin-right: 6px;
-    margin-left: 6px;
-    margin-top: 70px;
-    margin-bottom: 70px;
+    height: 1118px;
+    margin-right: 270px;
+    margin-left: 270px;
+    margin-top: 250px;
+    margin-bottom: 250px;
     border-radius: 0;
     background-color: white;
 }
@@ -500,7 +510,8 @@ input[id="13"]:checked ~ .pagination .pagination-item[for="13"]{
 .page-articulo h2{
     display: flex;
     justify-content: center;
-    margin-bottom: 18px;
+    margin-bottom: 45px;
+    font-size: 50px;
 }
 
 .page-articulo p{
@@ -510,11 +521,11 @@ input[id="13"]:checked ~ .pagination .pagination-item[for="13"]{
     color: white;
     background-color: #000000a8;
     border-radius: 4px;
-    width: 931px;
-    height: 50px;
-    font-size: 17px;
+    width: 1423px;
+    height: 55px;
+    font-size: 27px;
     padding: 1px 1px;
-    margin: 21px auto 25px auto;
+    margin: 21px auto 50px auto;
     flex-direction: column;
     flex-wrap: wrap;
 }
@@ -534,10 +545,12 @@ input[id="13"]:checked ~ .pagination .pagination-item[for="13"]{
 .container-video-parrafo{
     display: flex;
     flex-direction: row;
+    width: 2643px;
+    justify-content: center;
 }
 
 .container-all-video{
-    padding: 1px 22px;
+    padding: 1px 0px;
 }
 
 .container-video{
@@ -547,18 +560,19 @@ input[id="13"]:checked ~ .pagination .pagination-item[for="13"]{
     padding: 0px;
     border-radius: 4px;
     position: relative;
-    max-width: 806px;
+    max-width: 852px;
+    max-height: 478px;
     width: 100%;
     border: solid 1px;
-    box-shadow: 0px 10px 23px #040206;
+    box-shadow: 0px 15px 42px #040206;
     overflow: hidden;
 }
 
 .container-parrafo{
     font-family: 'Golos Text', sans-serif;
-    padding: 109px 22px;
-    width: 420px;
-    font-size: 15px;
+    padding: 129px 40px;
+    width: 1515px;
+    font-size: 28px;
     background-image: linear-gradient(to left, rgba(255, 255, 255, 0), rgb(13 0 32 / 28%));
 }
 
@@ -598,7 +612,7 @@ source{
     align-items: center;
     justify-content: flex-end;
     width: 100%;
-    margin-bottom: 410px;
+    margin-bottom: 437px;
 }
 
 .pagination-item-video{
@@ -606,13 +620,13 @@ source{
     flex-direction: column;
     align-items: center;
     border: 1px solid #ababab;
-    width: 15px;
-    height: 14px;
-    border-radius: 4px;
+    width: 20px;
+    height: 20px;
+    border-radius: 14px;
     overflow: hidden;
     cursor: pointer;
     background: rgba(10, 10, 10, 0.5);
-    margin: 0px 8px;
+    margin: 0px 12px;
     text-align: center;
     transition: all 300ms;
 }
@@ -673,50 +687,53 @@ input[id="4video"]:checked ~ .pagination-video .pagination-item-video[for="4vide
 }
 
 .page-main-four{
-    margin-top: 90px;
-    background: linear-gradient(to bottom, rgba(255, 255, 255) 35%, rgb(0, 0, 0) 86%);
-    margin-left: 0px;
-    margin-right: 0px;
-    margin-bottom: 100px;
+    background: linear-gradient(to bottom, rgb(255 255 255 / 0%) 35%, rgb(0 0 0 / 0%) 86%);
+    margin-left: 270px;
+    margin-right: 270px;
+    margin-top: 200px;
+    margin-bottom: 70px;
 }
 
 .container-articulo-vida-sewer{
+    padding: 2px 102px;
     font-family: 'Golos Text', sans-serif;
 }
 
 .container-articulo-vida-sewer h2{
     display: flex;
     justify-content: center;
-    margin-bottom: 18px;
+    margin-bottom: 40px;
     padding: 10px 20px;
+    font-size: 50px;
 }
 
 .container-articulo-vida-sewer p{
-    margin-bottom: 24px;
+    margin-bottom: 45px;
     padding: 1px 25px;
-    font-size: 16px;
+    font-size: 29px;
 } 
 
 .container-yt{
     display: flex;
-    height: 410px;
+    height: 750px;
     flex-wrap: nowrap;
-    margin: 0px 4px;
+    margin: 0px 0px;
     border-radius: 4px;
     background: url(./images/fondosewer80.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     flex-direction: row;
-    grid-gap: 100px;
+    grid-gap: 140px;
     align-items: center;
     padding: 30px 34px;
+    justify-content: center;
 }
 
 .container-item-yt{
-    box-shadow: 2px 0px 40px 2px rgb(145 81 229);
-    width: 542px;
-    height: 305px;
+    box-shadow: 2px 0px 70px 2px rgb(145 81 229);
+    width: 960px;
+    height: 553px;
 }
 
 .container-item-yt iframe{
@@ -760,29 +777,29 @@ input[id="4video"]:checked ~ .pagination-video .pagination-item-video[for="4vide
 }
 
 .pie-pagina .grupo-1 .box figure img{
-    width: 230px;
+    width: 550px;
 }
 
 .pie-pagina .grupo-1 h3 {
     color: #fff;
-    margin-top: 45px;
-    margin-bottom: 12px;
-    font-size: 23px;
+    margin-top: 135px;
+    margin-bottom: 50px;
+    font-size: 35px;
 }
 
 .pie-pagina .grupo-1 h2{
     color: #efefef;
-    margin-top: 45px;
-    margin-bottom: 24px;
-    font-size: 23px;
+    margin-top: 135px;
+    margin-bottom: 80px;
+    font-size: 35px;
 }
 
 
 .pie-pagina .grupo-1 .box p{
     color: #efefef;
     text-decoration: none;
-    margin-bottom: 10px;
-    font-size: 10px;
+    margin-bottom: 30px;
+    font-size: 18px;
 }
 
 .pie-pagina .grupo-1 .box p a{
@@ -797,13 +814,14 @@ input[id="4video"]:checked ~ .pagination-video .pagination-item-video[for="4vide
 .pie-pagina .grupo-1 .red-social a{
     display: inline-block;
     text-decoration: none;
-    width: 40px;
-    height: 40px;
-    line-height: 45px;
+    width: 113px;
+    height: 70px;
+    line-height: 80px;
     color: #fff;
     margin-right: 0px;
     text-align: center;
     transition: all 300ms;
+    font-size: 48px;
 }
 
 .pie-pagina .grupo-1 .red-social a:hover{
@@ -819,6 +837,5 @@ input[id="4video"]:checked ~ .pagination-video .pagination-item-video[for="4vide
 }
 
 .pie-pagina .grupo-2 small{
-    font-size: 10px;
+    font-size: 15px;
 }
-
