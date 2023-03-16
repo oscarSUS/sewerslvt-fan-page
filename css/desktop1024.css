@@ -27,7 +27,8 @@ h1 {
     justify-content: space-between;
     flex-direction: row;
     background: linear-gradient(80deg, black, white);
-    height: 60px;
+    height: 54px;
+    align-items: center;
 }
 
 #logo-nav{
@@ -36,15 +37,15 @@ h1 {
 }
 
 #main-nav{
-    margin-top: 15px;
+    margin-top: 0px;
     list-style: none;
     padding-left: 0px;
     font-family: 'Golos Text', sans-serif;
 }
 
 #main-nav li{
-    width: 50px;
-    height: 26px;
+    width: 53px;
+    height: 27px;
     display: inline-flex;
     justify-content: center;
     margin-right: 6px;
@@ -546,7 +547,7 @@ input[id="13"]:checked ~ .pagination .pagination-item[for="13"]{
     padding: 0px;
     border-radius: 4px;
     position: relative;
-    max-width: 806px;
+    max-width: 820px;
     width: 100%;
     border: solid 1px;
     box-shadow: 0px 10px 23px #040206;
