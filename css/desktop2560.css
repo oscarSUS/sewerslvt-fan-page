@@ -76,7 +76,8 @@ h1 {
 .page-main{
     display: flex;
     flex-wrap: nowrap;
-    margin: 70px 270px;
+    width: 2450px;
+    margin: 70px auto;
     flex-direction: row;
     font-family: 'Golos Text', sans-serif;
 }
@@ -149,10 +150,8 @@ h1 {
     display: flex;
     flex-wrap: nowrap;
     flex-direction: row;
-    margin-top: 110px;
-    margin-bottom: 150px;
-    margin-left: 270px;
-    margin-right: 270px;
+    width: 2450px;
+    margin: 70px auto;
     height: auto;
     align-items: center;
 }
@@ -495,10 +494,8 @@ input[id="13"]:checked ~ .pagination .pagination-item[for="13"]{
     flex-direction: column;
     background-image: linear-gradient(to left, rgba(255, 255, 255, 0), rgb(123 113 137 / 0%));
     height: 1118px;
-    margin-right: 270px;
-    margin-left: 270px;
-    margin-top: 250px;
-    margin-bottom: 250px;
+    width: 2450px;
+    margin: 70px auto;
     border-radius: 0;
     background-color: white;
 }
@@ -688,10 +685,8 @@ input[id="4video"]:checked ~ .pagination-video .pagination-item-video[for="4vide
 
 .page-main-four{
     background: linear-gradient(to bottom, rgb(255 255 255 / 0%) 35%, rgb(0 0 0 / 0%) 86%);
-    margin-left: 270px;
-    margin-right: 270px;
-    margin-top: 200px;
-    margin-bottom: 70px;
+    width: 2450px;
+    margin: 70px auto;
 }
 
 .container-articulo-vida-sewer{
