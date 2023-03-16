@@ -76,7 +76,8 @@ h1 {
 .page-main{
     display: flex;
     flex-wrap: nowrap;
-    margin: 60px 70px;
+    width: 1400px;
+    margin: 60px auto;
     flex-direction: column;
     font-family: 'Golos Text', sans-serif;
 }
@@ -146,10 +147,8 @@ h1 {
     display: flex;
     flex-wrap: nowrap;
     flex-direction: row;
-    margin-top: 38px;
-    margin-bottom: 38px;
-    margin-left: 70px;
-    margin-right: 70px;
+    width: 1400px;
+    margin: 60px auto;
     height: auto;
     align-items: center;
 }
@@ -222,8 +221,8 @@ h1 {
     justify-content: center;
     background-image: linear-gradient(to right, rgb(255 255 255 / 0%), rgb(123 113 137 / 0%));
     padding: 0px;
-    width: 471px;
-    height: 471px;
+    width: 465px;
+    height: 444px;
     margin: 0px auto;
 }
 
@@ -492,9 +491,8 @@ input[id="13"]:checked ~ .pagination .pagination-item[for="13"]{
     flex-direction: column;
     background-image: linear-gradient(to left, rgba(255, 255, 255, 0), rgb(123 113 137 / 0%));
     height: 587px;
-    margin-right: 70px;
-    margin-left: 70px;
-    margin-top: 70px;
+    width: 1400px;
+    margin: 60px auto;
     border-radius: 0;
     background-color: white;
 }
@@ -553,7 +551,7 @@ input[id="13"]:checked ~ .pagination .pagination-item[for="13"]{
     padding: 0px;
     border-radius: 4px;
     position: relative;
-    max-width: 852px;
+    max-width: 851px;
     max-height: 478px;
     width: 100%;
     border: solid 1px;
@@ -680,11 +678,9 @@ input[id="4video"]:checked ~ .pagination-video .pagination-item-video[for="4vide
 }
 
 .page-main-four{
-    margin-top: 90px;
     background: linear-gradient(to bottom, rgb(255 255 255 / 0%) 35%, rgb(0 0 0 / 0%) 86%);
-    margin-left: 70px;
-    margin-right: 70px;
-    margin-bottom: 100px;
+    width: 1400px;
+    margin: 60px auto;
 }
 
 .container-articulo-vida-sewer{
