@@ -200,7 +200,7 @@ h1 {
 
 .arte-historia{
     display: flex;
-    margin-left: 70px;
+    margin-left: 100px;
     margin-right: 70px;
     width: auto;
     font-family: 'Golos Text', sans-serif;
@@ -227,7 +227,7 @@ h1 {
     padding: 0px;
     width: 682px;
     height: 500px;
-    margin: 0px 51px;
+    margin: 0px 0px;
 }
 
 .container-all{
