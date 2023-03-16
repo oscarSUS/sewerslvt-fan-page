@@ -86,6 +86,7 @@ h1 {
 
 .Biografia-Articulo h2{
     margin-bottom: 15px;
+    font-size: 24px;
 }
 
 .discografia-padre{
@@ -102,6 +103,7 @@ h1 {
 .discografia-padre h2{
     margin-left: 9px;
     margin-bottom: 23px;
+    font-size: 24px;
 }
 
 .discografia-lista h1{
