@@ -74,7 +74,7 @@ h1 {
 .page-main{
     display: flex;
     flex-wrap: nowrap;
-    margin: 10px 6px;
+    margin: 15px 6px;
     flex-direction: column;
     font-family: 'Golos Text', sans-serif;
 }
@@ -257,7 +257,7 @@ img{
 
 .pagination{
     position: absolute;
-    bottom: 10px;
+    bottom: 6px;
     left: 0;
     display: flex;
     flex-wrap: wrap;
@@ -271,9 +271,9 @@ img{
     flex-direction: column;
     align-items: center;
     border: 1px solid white;
-    width: 13px;
-    height: 13px;
-    border-radius: 4px;
+    width: 12px;
+    height: 12px;
+    border-radius: 7px;
     overflow: hidden;
     cursor: pointer;
     background: rgba(10, 10, 10, 0.5);
@@ -552,7 +552,7 @@ input[id="13"]:checked ~ .pagination .pagination-item[for="13"]{
     position: relative;
     max-width: 800px;
     width: 100%;
-    border: solid 1px;
+    border: solid 0px;
     box-shadow: 6px 6px 20px #040206;
     overflow: hidden;
 }
@@ -600,7 +600,7 @@ source{
     align-items: center;
     justify-content: flex-end;
     width: 100%;
-    margin-bottom: 153px;
+    margin-bottom: 155px;
 }
 
 .pagination-item-video{
@@ -608,9 +608,9 @@ source{
     flex-direction: column;
     align-items: center;
     border: 1px solid #ababab;
-    width: 13px;
-    height: 13px;
-    border-radius: 4px;
+    width: 12px;
+    height: 12px;
+    border-radius: 7px;
     overflow: hidden;
     cursor: pointer;
     background: rgba(10, 10, 10, 0.5);
@@ -770,14 +770,14 @@ input[id="4video"]:checked ~ .pagination-video .pagination-item-video[for="4vide
     color: #fff;
     margin-top: 10px;
     margin-bottom: 12px;
-    font-size: 18px;
+    font-size: 17px;
 }
 
 .pie-pagina .grupo-1 h2{
     color: #efefef;
     margin-top: 28px;
     margin-bottom: 8px;
-    font-size: 18px;
+    font-size: 17px;
 }
 
 
@@ -786,7 +786,7 @@ input[id="4video"]:checked ~ .pagination-video .pagination-item-video[for="4vide
     color: #efefef;
     text-decoration: none;
     margin-bottom: 10px;
-    font-size: 10px;
+    font-size: 9px;
 }
 
 .pie-pagina .grupo-1 .box p a{
