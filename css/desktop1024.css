@@ -92,7 +92,10 @@ h1 {
 }
 
 .discografia-padre{
-    background-color: #fffffff7;
+    background: url(./images/discografia5.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     font-family: 'Golos Text', sans-serif;
     display: flex;
     flex-direction: column;
@@ -130,6 +133,7 @@ h1 {
 .discografia-main__lista{
     display: flex;
     flex-direction: row;
+    background-image: none;
 }
 
 .discografia-lista li a{
@@ -159,8 +163,13 @@ h1 {
     height: 387px;
     border-radius: 10px;
     box-shadow: 6px 5px 14px #33027473;
-    background-color: rgb(0 0 0 / 18%);
     margin: 0px auto;
+    background: url(./images/catgirl3.png);
+    background-color: rgb(0 0 0 / 18%);
+    background-size: 165px 165px;
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-position-y: bottom;
 }
 
 .Bibliografia-titulo{
@@ -559,7 +568,10 @@ input[id="13"]:checked ~ .pagination .pagination-item[for="13"]{
     padding: 33px 22px;
     width: 420px;
     font-size: 15px;
-    background-image: linear-gradient(to left, rgba(255, 255, 255, 0), rgb(13 0 32 / 28%));
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(./images/girlSmoke25.jpg)
 }
 
 .container-parrafo-item{
@@ -730,6 +742,10 @@ input[id="4video"]:checked ~ .pagination-video .pagination-item-video[for="4vide
     background-color: #040206;
     font-family: 'Golos Text', sans-serif;
     margin-top: 40px;
+    background: url(./images/footer1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .pie-pagina .grupo-1{

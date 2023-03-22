@@ -80,6 +80,10 @@ h1 {
     margin: 60px auto;
     flex-direction: column;
     font-family: 'Golos Text', sans-serif;
+    background: url(./images/discografia5.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .Biografia-Articulo{
@@ -92,7 +96,7 @@ h1 {
 }
 
 .discografia-padre{
-    background-color: #fffffff7;
+    background-image: none;
     font-family: 'Golos Text', sans-serif;
     display: flex;
     flex-direction: column;
@@ -130,6 +134,7 @@ h1 {
 .discografia-main__lista{
     display: flex;
     flex-direction: row;
+    background-image: none;
 }
 
 .discografia-lista li a{
@@ -159,8 +164,13 @@ h1 {
     height: 466px;
     border-radius: 10px;
     box-shadow: 6px 5px 14px #33027473;
-    background-color: rgb(0 0 0 / 18%);
     margin: 0px auto;
+    background: url(./images/catgirl3.png);
+    background-color: rgb(0 0 0 / 18%);
+    background-size: 200px 200px;
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-position-y: bottom;
 }
 
 .Bibliografia-titulo{
@@ -564,7 +574,10 @@ input[id="13"]:checked ~ .pagination .pagination-item[for="13"]{
     padding: 83px 22px;
     width: 420px;
     font-size: 18px;
-    background-image: linear-gradient(to left, rgba(255, 255, 255, 0), rgb(13 0 32 / 28%));
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(./images/girlSmoke25.jpg)
 }
 
 .container-parrafo-item{
@@ -613,7 +626,7 @@ source{
     border: 1px solid #ababab;
     width: 18px;
     height: 18px;
-    border-radius: 8px;
+    border-radius: 10px;
     overflow: hidden;
     cursor: pointer;
     background: rgba(10, 10, 10, 0.5);
@@ -703,7 +716,7 @@ input[id="4video"]:checked ~ .pagination-video .pagination-item-video[for="4vide
 
 .container-yt{
     display: flex;
-    height: 550px;
+    height: 512px;
     flex-wrap: nowrap;
     margin: 0px 4px;
     border-radius: 4px;
@@ -720,8 +733,8 @@ input[id="4video"]:checked ~ .pagination-video .pagination-item-video[for="4vide
 
 .container-item-yt{
     box-shadow: 2px 0px 70px 2px rgb(145 81 229);
-    width: 650px;
-    height: 400px;
+    width: 600px;
+    height: 350px;
 }
 
 .container-item-yt iframe{
@@ -736,6 +749,10 @@ input[id="4video"]:checked ~ .pagination-video .pagination-item-video[for="4vide
     background-color: #040206;
     font-family: 'Golos Text', sans-serif;
     margin-top: 40px;
+    background: url(./images/footer1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .pie-pagina .grupo-1{
