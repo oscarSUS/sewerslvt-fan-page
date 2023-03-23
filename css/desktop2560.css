@@ -27,7 +27,7 @@ h1 {
     justify-content: space-between;
     flex-direction: row;
     background: linear-gradient(80deg, black, white);
-    height: 125px;
+    height: 100px;
     align-items: center;
 }
 
@@ -80,6 +80,10 @@ h1 {
     margin: 70px auto;
     flex-direction: row;
     font-family: 'Golos Text', sans-serif;
+    background: url(./images/discografia5.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .Biografia-Articulo{
@@ -93,7 +97,8 @@ h1 {
 }
 
 .discografia-padre{
-    background-color: #fffffff7;
+    background-color: rgba(255, 255, 255, 0);
+    background-image: none;
     font-family: 'Golos Text', sans-serif;
     display: flex;
     flex-direction: column;
@@ -162,8 +167,13 @@ h1 {
     height: 700px;
     border-radius: 10px;
     box-shadow: 13px 16px 16px #33027473;
-    background-color: rgb(0 0 0 / 18%);
     margin: 0px auto;
+    background: url(./images/catgirl3.png);
+    background-color: rgb(0 0 0 / 18%);
+    background-size: 385px 385px;
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-position-y: bottom;
 }
 
 .Bibliografia-titulo{
@@ -282,7 +292,7 @@ img{
     border: 1px solid white;
     width: 20px;
     height: 20px;
-    border-radius: 12px;
+    border-radius: 40px;
     overflow: hidden;
     cursor: pointer;
     background: rgba(10, 10, 10, 0.5);
@@ -570,7 +580,10 @@ input[id="13"]:checked ~ .pagination .pagination-item[for="13"]{
     padding: 129px 40px;
     width: 1515px;
     font-size: 28px;
-    background-image: linear-gradient(to left, rgba(255, 255, 255, 0), rgb(13 0 32 / 28%));
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-image: url(./images/girl.png)
 }
 
 .container-parrafo-item{
@@ -619,7 +632,7 @@ source{
     border: 1px solid #ababab;
     width: 20px;
     height: 20px;
-    border-radius: 14px;
+    border-radius: 40px;
     overflow: hidden;
     cursor: pointer;
     background: rgba(10, 10, 10, 0.5);
@@ -743,6 +756,10 @@ input[id="4video"]:checked ~ .pagination-video .pagination-item-video[for="4vide
     background-color: #040206;
     font-family: 'Golos Text', sans-serif;
     margin-top: 40px;
+    background: url(./images/footer1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .pie-pagina .grupo-1{
